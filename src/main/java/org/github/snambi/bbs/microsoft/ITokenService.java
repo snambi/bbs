@@ -1,5 +1,6 @@
 package org.github.snambi.bbs.microsoft;
 
+import org.github.snambi.bbs.microsoft.beans.TokenResponse;
 import retrofit2.Call;
 import retrofit2.http.*;
 

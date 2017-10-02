@@ -1,5 +1,6 @@
 package org.github.snambi.bbs.microsoft;
 
+import org.github.snambi.bbs.microsoft.beans.*;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;

@@ -1,5 +1,5 @@
 <%@ page import="javax.servlet.http.HttpServletRequest" %>
-<%@ page import="org.github.snambi.bbs.microsoft.Event" %>
+<%@ page import="org.github.snambi.bbs.microsoft.beans.Event" %>
 
 <%
 Event[] events = (Event[]) request.getAttribute("meetings");

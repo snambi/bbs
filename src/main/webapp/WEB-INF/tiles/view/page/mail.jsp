@@ -1,5 +1,5 @@
 <%@ page import="javax.servlet.http.HttpServletRequest" %>
-<%@ page import="org.github.snambi.bbs.microsoft.Message" %>
+<%@ page import="org.github.snambi.bbs.microsoft.beans.Message" %>
 
 <%
 Boolean isLoggedIn = (Boolean) request.getAttribute("isLoggedIn");

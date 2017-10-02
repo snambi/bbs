@@ -1,5 +1,5 @@
-<%@ page import="org.github.snambi.bbs.microsoft.Contact" %>
-<%@ page import="org.github.snambi.bbs.microsoft.EmailAddress" %>
+<%@ page import="org.github.snambi.bbs.microsoft.beans.Contact" %>
+<%@ page import="org.github.snambi.bbs.microsoft.beans.EmailAddress" %>
 
 <%
 Boolean isLoggedIn = (Boolean) request.getAttribute("isLoggedIn");

@@ -1,6 +1,9 @@
 package org.github.snambi.bbs.web;
 
 import org.github.snambi.bbs.microsoft.*;
+import org.github.snambi.bbs.microsoft.beans.IdToken;
+import org.github.snambi.bbs.microsoft.beans.OutlookUser;
+import org.github.snambi.bbs.microsoft.beans.TokenResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;

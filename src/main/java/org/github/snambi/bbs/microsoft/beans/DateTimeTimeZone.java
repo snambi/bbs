@@ -1,4 +1,4 @@
-package org.github.snambi.bbs.microsoft;
+package org.github.snambi.bbs.microsoft.beans;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

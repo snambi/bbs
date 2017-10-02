@@ -1,6 +1,9 @@
 package org.github.snambi.bbs.web;
 
 import org.github.snambi.bbs.microsoft.*;
+import org.github.snambi.bbs.microsoft.beans.Event;
+import org.github.snambi.bbs.microsoft.beans.PagedResult;
+import org.github.snambi.bbs.microsoft.beans.TokenResponse;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
