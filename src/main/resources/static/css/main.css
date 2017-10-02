@@ -1,0 +1,86 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  /*background-color: #f5f5f5; */
+}
+
+/*  Custom Navbar */
+.navbar {
+  background-color: #e8f0cd;
+}
+.navbar .navbar-brand {
+  color: #18292d;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #040701;
+}
+.navbar .navbar-text {
+  color: #18292d;
+}
+.navbar .navbar-nav .nav-link {
+  color: #18292d;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #040701;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #040701;
+  background-color: #a3ce70;
+}
+.navbar .navbar-toggle {
+  border-color: #a3ce70;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #a3ce70;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #18292d;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #18292d;
+}
+.navbar .navbar-link {
+  color: #18292d;
+}
+.navbar .navbar-link:hover {
+  color: #040701;
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-nav .open .dropdown-menu .dropdown-item {
+    color: #18292d;
+  }
+  .navbar .navbar-nav .open .dropdown-menu .dropdown-item:hover,
+  .navbar .navbar-nav .open .dropdown-menu .dropdown-item:focus {
+    color: #040701;
+  }
+  .navbar .navbar-nav .open .dropdown-menu .dropdown-item.active {
+    color: #040701;
+    background-color: #a3ce70;
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "BBS",
+  "scripts": {
+  },
+  "env": {
+    "CLEARDB_DATABASE_URL": {
+      "required": true
+    },
+    "MS.APP_PASSWORD": {
+      "required": true
+    },
+    "MS.APPID": {
+      "required": true
+    },
+    "MS.REDIRECT_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "cleardb"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}

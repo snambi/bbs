@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+    <!-- Templates -->
+
+    <definition name="layout.basic" template="/WEB-INF/tiles/layout/basic.jsp">
+        <put-attribute name="title" value="ManBot" />
+        <put-attribute name="header" value="/WEB-INF/tiles/view/header.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/tiles/view/footer.jsp" />
+    </definition>
+
+    <!-- Pages -->
+
+    <definition name="tiles.homepage" extends="layout.basic">
+        <put-attribute name="body" value="/WEB-INF/tiles/view/page/home.jsp" />
+    </definition>
+
+    <definition name="tiles.auth" extends="layout.basic">
+        <put-attribute name="body" value="/WEB-INF/tiles/view/page/auth.jsp" />
+    </definition>
+
+    <definition name="tiles.meetings" extends="layout.basic">
+        <put-attribute name="body" value="/WEB-INF/tiles/view/page/meetings.jsp" />
+    </definition>
+
+    <definition name="tiles.mail" extends="layout.basic">
+        <put-attribute name="body" value="/WEB-INF/tiles/view/page/mail.jsp" />
+    </definition>
+
+    <definition name="tiles.contacts" extends="layout.basic">
+        <put-attribute name="body" value="/WEB-INF/tiles/view/page/contacts.jsp" />
+    </definition>
+
+</tiles-definitions>

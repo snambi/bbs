@@ -1,0 +1,13 @@
+language: java
+jdk:
+ - oraclejdk8
+sudo: required
+before_install:
+  -  chmod +x ./travis/*
+  - ./travis/install-mysql.sh
+  - ./travis/mysql-reset-root-password.sh
+deploy:
+ provider: heroku
+ api-key:
+  secure: $HEROKU_API_KEY
+ app: bbs-1

@@ -1,0 +1,18 @@
+package org.github.snambi.bbs.microsoft;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+/**
+ */
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Recipient {
+    private EmailAddress emailAddress;
+
+    public EmailAddress getEmailAddress() {
+        return emailAddress;
+    }
+
+    public void setEmailAddress(EmailAddress emailAddress) {
+        this.emailAddress = emailAddress;
+    }
+}
